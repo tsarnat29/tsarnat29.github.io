@@ -1,5 +1,94 @@
-h1 {
+body {
+	margin:0px;
+	width:100%;
+	position: relative;
+}
+#callback {
+				width: 340px;
+				height: 340px;
+				text-align: left;
+				border: 1px solid rgb(51,51,51);				
+				background-color: rgb(239,239,239);
+				color: rgb(51,51,51);
+				font-size: 12px;
+				font-family: "OpenSansCondensedBold", sans-serif;
+				margin: 0px auto;
+				margin-top:12%;
+				padding: 15px;
+				z-index: 1200;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+	width: 330px;
+	height:33px;
+	border: 0px;
+	background-color: white;
+	margin-bottom: 4px;
+	margin-top:4px;
+	margin-right:0px;
+	padding-right:0px;
+	font-size: 17px;
+	padding-left:10px;
+	font-family: OpenSansRegular, sans-serif;
+}
+form h3 {
+	display: block;
+	width:340px;
+	margin:0px;
+	margin-bottom:14px;
+	height:40px;
+	padding:0px;
+	font-size: 25px;
+	text-align: center;
+}
+textarea {
+	width: 330px;
+	height:60px;
+	border: 0px;
+	background-color: white;
+	margin:0px;
+	margin-bottom: 4px;
+	margin-top:4px;
+	padding:0px;
+	font-size: 17px;
+	padding-left:10px;
+	padding-top:3px;
+	font-family: OpenSansRegular, sans-serif;
+}
+h3#jj {
 	display: block;
 	height: 50px;
 	font-size: 10px;
+}
+form button {
+	cursor: pointer;
+	margin:0px;
+	margin-top: 5px;
+	height: 39px;
+	width: 115px;
+	display: inline-block;
+	padding: 0px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 18px;
+  font-family: "OpenSansCondensedBold", sans-serif;
+  color: #fff;
+  outline: none;
+  border: 3px solid rgb(210,11,11);
+  border-radius: 4px;
+  box-shadow: 0 1 0 1px rgba(162,11,11,0.5), .0em .0em .0em #800;
+  background: linear-gradient(#f46363 51%, #e20f0f  49%);
+}
+#win_wrap {
+	width: 100%;
+	height:100%;
+	position: fixed;
+	top: 0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin: auto;
+	background: rgba(0,0,0,0.1);
+	z-index:1100;
 }
